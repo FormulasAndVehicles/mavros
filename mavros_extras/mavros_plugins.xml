@@ -70,5 +70,8 @@
 	</class>
 	<class name="mount_control" type="mavros::extra_plugins::MountControlPlugin" base_class_type="mavros::plugin::PluginBase">
 		<description>Send Mission command to control a camera or a antenna mount.</description>
-	</class>
+    </class>
+    <class name="setpoint_motor" type="mavros::extra_plugins::SetpointMotorPlugin" base_class_type="mavros::plugin::PluginBase">
+        <description>Feed through motor throttle messages</description>
+    </class>
 </library>

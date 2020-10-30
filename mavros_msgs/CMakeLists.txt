@@ -39,6 +39,7 @@ add_message_files(
   LogEntry.msg
   ManualControl.msg
   Mavlink.msg
+  MotorSetpoint.msg
   MountControl.msg
   OpticalFlowRad.msg
   OverrideRCIn.msg
